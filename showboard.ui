@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShowBoard</class>
+ <widget class="QMainWindow" name="ShowBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1014</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ShowBoard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>1301</width>
+      <height>951</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="tabBubble">
+     <attribute name="title">
+      <string>冒泡排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbBubble">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnBubbleStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnBubblePause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnBubbleStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnBubbleInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labBubbleTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Bubble" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabInsert">
+     <attribute name="title">
+      <string>插入排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbInsert">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnInsertStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始插入排序动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnInsertPause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnInsertStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labInsertTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnInsertInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Insert" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabSelect">
+     <attribute name="title">
+      <string>选择排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbSelect">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnSelectStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnSelectPause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnSelectStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnSelectInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labSelectTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Select" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabHeap">
+     <attribute name="title">
+      <string>堆排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbHeap">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnHeapStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnHeapPause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnHeapStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnHeapInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labHeapTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Heap" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabQuick">
+     <attribute name="title">
+      <string>快速排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbQuick">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnQuickStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnQuickPause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnQuickStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnQuickInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labQuickTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Quick" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabMerge">
+     <attribute name="title">
+      <string>归并排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbMerge">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnMergeStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnMergePause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnMergeStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnMergeInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labMergeTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Merge" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabRadix">
+     <attribute name="title">
+      <string>基数排序</string>
+     </attribute>
+     <widget class="QGroupBox" name="grbRadix">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="btnRadixStart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>开始冒泡排序 动态演示</string>
+       </property>
+       <property name="text">
+        <string>开始动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnRadixPause">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>暂停动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnRadixStop">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>终止动态演示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnRadixInit">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>0</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>重新初始化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labRadixTip">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>211</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_Radix" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>1281</width>
+        <height>861</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="grbAll">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>271</width>
+      <height>951</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="grbFileSet">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>251</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>数据生成</string>
+     </property>
+     <widget class="QPushButton" name="btnDataProdeuce">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>70</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> 数据生成</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>速度</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="speed_Box">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>120</y>
+        <width>111</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="grbInfo">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>257</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>数据基本信息</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lieMaxNum">
+        <property name="toolTip">
+         <string>最大值</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labAvgNum">
+        <property name="text">
+         <string>平均值</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lieMinNum">
+        <property name="toolTip">
+         <string>最小值</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labMaxNum">
+        <property name="text">
+         <string>最大值</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lieAvgNum">
+        <property name="toolTip">
+         <string>平均值</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labMinNum">
+        <property name="text">
+         <string>最小值</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labDataNums">
+        <property name="text">
+         <string>数据数量</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lieDataNums">
+        <property name="toolTip">
+         <string>数据数量</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="labVarNum">
+        <property name="text">
+         <string>方差</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lieVarNum">
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="toolTip">
+         <string>方差</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="grbSort">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>689</y>
+       <width>251</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>冒泡排序</string>
+     </property>
+     <widget class="QPlainTextEdit" name="pteSort">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>231</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_9">
+    <property name="geometry">
+     <rect>
+      <x>1590</x>
+      <y>10</y>
+      <width>321</width>
+      <height>951</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>321</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>当前数据各算法比较次数饼图</string>
+     </property>
+     <widget class="QChartView" name="chartViewPieCmp">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>301</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCmp">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>30</y>
+        <width>181</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> 刷新饼图</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>321</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>当前数据各算法交换次数饼图</string>
+     </property>
+     <widget class="QChartView" name="chartViewPieSwap">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>301</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSwap">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>30</y>
+        <width>181</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>刷新饼图</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>670</y>
+       <width>321</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string> 数据显示</string>
+     </property>
+     <widget class="QTextEdit" name="DataShow">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>271</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
